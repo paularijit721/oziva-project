@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', 'Quicksand', 'Signika Negative', sans-serif;
+}
+
+/* ! top header offer section start */
+
+.top-header-offer-section{
+    background-color: rgb(68, 1, 131);
+}
+.top-header-offer-section p{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.top-header-offer-section .container p{
+font-size: 16px;
+line-height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 44.5px;
+flex-wrap: wrap;
+width: 100%;
+border: 0;
+
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: 400px;
+
+}
+.search-input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    color: #888;
+
+}
+.search-icon{
+    color: #2a7b67;
+    font-size: 18px;
+}
+.left-section-logo-searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-icon-search-icon {
+    display: flex;
+    gap: 15px; 
+    font-size: 25px;
+    
+}
+.login-icon-search-icon a{
+    text-decoration: none;
+}
+.login-icon-search-icon i{
+    font-size: 18px;
+    color: #2a7b67;
+
+}
+.left-sectiion-oziva{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* ! top header offer section start */
+
+
+
+    /* main nav section start --> */
+.navbar-collapse{
+    justify-content: center;
+
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.nav-item .nav-link{
+    font-weight: 600;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.nav-axist-class{
+    border-top: 1px solid#ccc;
+    border-bottom: 1px solid#ccc;
+}
+    /* ===== main navbar section end ===== */
